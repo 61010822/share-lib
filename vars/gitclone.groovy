@@ -1,3 +1,3 @@
-def call() {
-git url: 'https://github.com/61010822/pipeline-jenkins', branch: 'master'
+def call(url) {
+  git url: '${url}', branch: 'master'
 }
