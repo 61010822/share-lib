@@ -1,5 +1,5 @@
 def call(code) {
-  sh """
-     "${code}"
+  sh"""
+     ${code}
   """
 }
