@@ -6,6 +6,6 @@ def call(){
         docker tag maven-proj:$BUILD_TAG pittimonr/maven-proj:$BUILD_TAG
         echo "** Pushing image **"
         docker push pittimonr/maven-proj:$BUILD_TAG 
-        //sh './jenkins/push/push.sh'
+//         sh './jenkins/push/push.sh'
     """
 }
